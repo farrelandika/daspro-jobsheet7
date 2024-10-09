@@ -4,12 +4,13 @@ public class SiakadWhile_09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int i = 1, nilai, jml;
+        int i = 0, nilai, jml;
 
         System.out.print("Masukkan Jumlah Mahasiswa:");
         jml = sc.nextInt();
         
         while (i <= jml) {
+            
 
 
             System.out.print("Masukkan nilai mahasiswa ke- " + i + ": ");
@@ -18,6 +19,7 @@ public class SiakadWhile_09 {
             if (nilai < 0 || nilai > 100) {
                 System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!");
                 continue;
+              
             }
             if (nilai > 80 && nilai <= 100) {
                 System.out.println("Nilai Mahasiswa Ke-" + i + " adalah A");
