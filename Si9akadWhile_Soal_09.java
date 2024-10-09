@@ -1,7 +1,7 @@
 
     import java.util.Scanner;
 
-    public class SiakadWhile_Soal_09 {
+    public class Si9akadWhile_Soal_09 {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
     
